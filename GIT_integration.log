@@ -46,3 +46,51 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 ===================End Of Srcctrl.bat====================== 
+=======================Srcctrl.bat========================== 
+Change local directory to "C:\GITHUB\GIT_EXAMPLE\Objects\" 
+Set c:\GITHUB\GIT_example as the working folder at Source Control System 
+git version 1.8.0.msysgit.0
+Add Applet-SIS_Account_List_Applet.sif in case it doesn't exist in Source Control System 
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+Start checking out Applet-SIS_Account_List_Applet.sif from Source Control System 
+fatal: 'Applet-SIS_Account_List_Applet.sif' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+===================End Of Srcctrl.bat====================== 
+=======================Srcctrl.bat========================== 
+Change local directory to "C:\GITHUB\GIT_EXAMPLE\Objects\" 
+Set c:\GITHUB\GIT_example as the working folder at Source Control System 
+git version 1.8.0.msysgit.0
+Check in Applet-SIS_Account_List_Applet.sif into Source Control System 
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: 'Applet-SIS_Account_List_Applet.sif' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+===================End Of Srcctrl.bat====================== 
